@@ -22,7 +22,7 @@ class Predictor():
     #checks whether a car can pass of not in specific time and date and with specific plates
     def cancirculate(self):
         
-        if (self.time >= datetime.time(6, 0)) or (self.time <= datetime.time(9, 0)) and (self.time >= datetime.time(17, 0)) or (self.time <= datetime.time(20, 0)):
+        if (self.time >= datetime.time(6, 0)) and (self.time <= datetime.time(9, 0)) or (self.time >= datetime.time(17, 0)) and (self.time <= datetime.time(20, 0)):
             result = 1
             if (self.lastdigit in myDict['Monday']) and (self.weekday==0):
                 result = 0
@@ -35,7 +35,7 @@ class Predictor():
             elif (self.lastdigit in myDict['Friday']) and (self.weekday==4):
                 result = 0
         else:
-            result = 0
+            result = 1
         return result
 
                  
