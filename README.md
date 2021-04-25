@@ -1,6 +1,6 @@
 # picoyplaca_predictor
 
-##Introduction to PicoyPlaca
+## Introduction to PicoyPlaca
 PicoyPlaca is a policy that originated in Bogota, Colombia back in 1998, which implements driving restrictions with the goal to reduce traffic. This organization limits acces into a pre-determined urban area for vehicles with specific lcense plate endings on a specific date adn time. 
 
 The restriction which I chose to apply in the predictor, was the one with the following restrictions:
@@ -13,8 +13,8 @@ The restriction which I chose to apply in the predictor, was the one with the fo
 * No restrictions apply on Saturday and Sunday
 * Traffic is restricted between 6 and 9 am, and between 5 and 8 pm.
 
-##Technologies 
-*Python 3.9
+## Technologies 
+* Python 3.9
 
-#Run
+## Run
 * python3 main.py
