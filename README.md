@@ -20,4 +20,4 @@ The restriction which I chose to apply in the predictor, was the one with the fo
 * python3 main.py
 
 ## Testing
-The testing is done using unittest library.
+The testing is done using unittest framework.
